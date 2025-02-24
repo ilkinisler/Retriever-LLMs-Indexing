@@ -86,5 +86,5 @@ Run adversarial testing, where the AI is given tricky questions to find its weak
 
 ## 5. Conclusion
 
-Retriever-LLMs indexing makes AI-generated responses more reliable by pulling in relevant knowledge. To ensure high performance, it’s crucial to evaluate both retrieval and generation metrics. Future improvements could involve better indexing techniques and real-time updates to knowledge bases.
+Retriever-LLMs indexing makes AI-generated responses more reliable by pulling in relevant knowledge. To ensure high performance, it’s important to evaluate both retrieval and generation metrics.
 
