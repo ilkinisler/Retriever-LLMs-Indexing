@@ -6,7 +6,7 @@ Retriever-LLMs (Large Language Models) indexing helps improve the accuracy of AI
 
 ## 2. How Retriever-LLMs Indexing Works in RAG
 
-2.1 What is RAG?
+### 2.1 What is RAG?
 
 RAG combines two steps:
 
@@ -16,7 +16,7 @@ Generation: Uses the retrieved information to create a response.
 
 This method makes AI-generated answers more accurate and informative.
 
-2.2 Indexing in RAG
+### 2.2 Indexing in RAG
 
 Vector Indexing: Converts text into numerical representations (embeddings) to enable efficient search.
 
@@ -26,7 +26,7 @@ Hybrid Indexing: Combines both methods for better retrieval.
 
 Fast Search: Uses advanced techniques like FAISS or HNSW to quickly find relevant documents.
 
-2.3 Why is Indexing Important?
+### 2.3 Why is Indexing Important?
 
 Prevents AI from making up information (hallucinations).
 
@@ -40,7 +40,7 @@ Can be customized for different industries, like healthcare or finance.
 
 To see how well a RAG system works, we measure both the retrieval and generation quality.
 
-3.1 Evaluating Retrieval (Finding the Right Documents)
+### 3.1 Evaluating Retrieval (Finding the Right Documents)
 
 Recall@K: Checks if the correct document appears in the top K search results.
 
@@ -52,7 +52,7 @@ NDCG (Normalized Discounted Cumulative Gain): Considers both ranking order and r
 
 Embedding Similarity: Compares how close the retrieved documents are to the query.
 
-3.2 Evaluating Generation (How Good is the AI’s Response?)
+### 3.2 Evaluating Generation (How Good is the AI’s Response?)
 
 BLEU Score: Measures how much the AI’s output matches a reference answer.
 
@@ -68,7 +68,7 @@ Hallucination Rate: Measures how often the AI provides incorrect or made-up info
 
 ## 4. How to Evaluate These Metrics
 
-4.1 Checking Retrieval Performance
+### 4.1 Checking Retrieval Performance
 
 Run test queries and compare retrieved documents against a correct answer set.
 
@@ -78,7 +78,7 @@ Check embedding similarity by comparing how close retrieved documents are to the
 
 Human review can also verify retrieval accuracy.
 
-4.2 Checking AI’s Generated Responses
+### 4.2 Checking AI’s Generated Responses
 
 Use automatic tools to calculate BLEU, ROUGE, METEOR, and BERTScore.
 
