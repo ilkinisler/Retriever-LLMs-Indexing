@@ -34,8 +34,6 @@ Provides more relevant and useful responses.
 
 Enables the AI to handle large amounts of data efficiently.
 
-Can be customized for different industries, like healthcare or finance.
-
 ## 3. How to Measure RAG Performance
 
 To see how well a RAG system works, we measure both the retrieval and generation quality.
